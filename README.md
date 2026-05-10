@@ -80,14 +80,46 @@ Se não conseguir terminar tudo, registre até onde chegou e qual erro apareceu.
 Cole aqui os principais resultados do seu código.
 
 ```text
+=== Regressão logística ===
+Acurácia treino: 0.958
+Acurácia teste: 0.958
+Precisão teste: 0.947
+Recall teste: 0.989
+F1-score teste: 0.967
+Matriz de confusão:
+[[48  5]
+ [ 1 89]]
+Probabilidades das 5 primeiras amostras de teste:
+[[0.01851079 0.98148921]
+ [0.99816902 0.00183098]
+ [0.17664237 0.82335763]
+ [0.23384359 0.76615641]
+ [0.19969055 0.80030945]]
 
+=== Árvore de decisão ===
+Acurácia treino: 1.000
+Acurácia teste: 0.923
+Precisão teste: 0.954
+Recall teste: 0.922
+F1-score teste: 0.938
+Matriz de confusão:
+[[49  4]
+ [ 7 83]]
+Probabilidades das 5 primeiras amostras de teste:
+[[0. 1.]
+ [1. 0.]
+ [1. 0.]
+ [0. 1.]
+ [0. 1.]]
 ```
 
 ### Interpretação
 
 Qual modelo generalizou melhor? Explique usando as métricas e a comparação entre treino e teste.
 
-Resposta:
+Resposta: segundo as métrica de acurácia, o modelo de Regressão logística obteve melhor resultado, pois os valores obtidos nos treinos e testes foram muito próximos(cerca de 95% de acurácia em ambos). isso significa que o desempenho se manteve praticamente igual em dados novos, mostrando que o modelo aprendeu os padrões reais do conjunto de dados sem “decorar” os exemplos de treino. Enquanto no modelo de Árvore de decisão houve um possível overfitting porque ele acertou perfeitamente os dados de treino, mas perdeu desempenho no teste. Além disso o F1-score da regressão logística(0.967 ou 96,7%) foi maior que o da Arvore de decisão(0.938 ou 93,8%), indicando maior equilíbrio entre encontrar os casos positivos e evitar erros nas previsões.
+
+##
 
 ## 5. Probabilidade e interpretação
 
