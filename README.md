@@ -48,11 +48,17 @@ Resposta: Lembro de ter trabalhado todos os tópicos, porém uns mais do que out
 Responda com suas palavras e dê um exemplo simples.
 
 1. O que é aprendizado supervisionado?
+> é quando o modelo aprende com dados que já vêm com a resposta certa. Exemplo: mostrar ao modelo fotos de frutas com um rotulo dizendo “maçã” ou “banana”, para ele aprender a reconhecer novas fotos.
 2. O que é uma tarefa de classificação?
+> é quando treinamos um modelo para categorizar algo de acordo suas características. exemplo: classificar se um e-mail é spam ou não.
 3. O que são features e target?
+> são as características de entrada usadas para fazer a previsão. Target é o valor que queremos prever. exemplo: para prever o preço de uma casa, as features podem ser tamanho, número de quartos e bairro; o target é o preço.
 4. Para que serve separar treino e teste?
+> serve para avaliar o aprendizado do modelo. exemplos: treinar com 80% dos dados e testar com os 20% restantes.
 5. O que é overfitting?
+> é quando o modelo aprende demais os dados de treino, incluindo ruídos e detalhes irrelevantes, e acaba indo mal em dados novos. Exemplo: um aluno que decora as respostas da lista, mas erra quando a pergunta muda um pouco.
 6. Por que acurácia pode ser uma métrica enganosa?
+> a acurácia pode ser uma métrica enganosa por que os dados passados para o treinamento podem estar desbalanceados. Exemplo: se 95% dos e-mails são normais e 5% são spam, um modelo que sempre chuta “normal” terá 95% de acurácia, mas será ruim para detectar spam, pois foi treinado com poucos casos de spam.
 
 ## 4. Diagnóstico prático com Scikit-Learn
 
