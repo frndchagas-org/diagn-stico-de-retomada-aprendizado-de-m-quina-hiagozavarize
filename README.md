@@ -41,6 +41,8 @@ Explique, em 8 a 12 linhas:
 4. o que você só conseguiu fazer seguindo roteiro;
 5. qual assunto precisa ser retomado com mais urgência.
 
+Resposta: Lembro de ter trabalhado todos os tópicos, porém uns mais do que outros. KNN, teorema de Bayes, correlação, arvores de decisão, matriz de confusão e XGBoost trabalhamos pouco ou quase nada. Das atividades sobre esses tópicos, Lembro de uma sobre regressão linear que consistia em criar um modelo que prevê o preço do aluguel de um imóvel com base nas características do local, como por exemplo a distancia até o metrô, além de outra atividade que consistia em criar um modelo que previa os resultados de partidas de futebol com base em Random Forest ou XGBoost por meio de uma database SQLite, e utilizá-lo para prever o vencedor de um campeonato com base na simulação de Monte Carlo. De forma autonoma consegui fazer a classificação dos dados para treino e testes e também a normalização, as outras partes das implementações só consegui fazer com ajuda de exemplos que o professor passou e utilizando IA. De forma geral acho que deveriamos fazer uma revisão dos assuntos mais básicos, rever sobre indicadores e reforçar os assuntos de classificação, pois nos aprofundamos poucos neles.
+
 ## 3. Conceitos essenciais
 
 Responda com suas palavras e dê um exemplo simples.
