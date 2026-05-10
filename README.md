@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ARkoM8Jo)
+
 # Diagnóstico de retomada - Aprendizado de Máquina
 
 Esta atividade serve para mapear o que você já domina em Aprendizado de Máquina depois das atividades anteriores da disciplina.
@@ -11,24 +12,24 @@ Prazo: 11/05/2026 às 23:59, horário de Fortaleza.
 
 Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi ou não tenho certeza.
 
-- vetores, matrizes e produto escalar:
-- média, desvio padrão e correlação:
-- probabilidade condicional e Teorema de Bayes:
-- regressão linear:
-- classificação supervisionada:
-- treino, teste e validação:
-- normalização ou padronização de dados:
-- KNN:
-- árvore de decisão:
-- matriz de confusão:
-- acurácia, precisão, recall e F1-score:
-- overfitting e underfitting:
-- validação cruzada:
-- Random Forest:
-- XGBoost ou boosting:
-- `predict_proba()`:
-- SQL/ETL aplicado a dados:
-- simulação de Monte Carlo:
+- vetores, matrizes e produto escalar: lembro bem
+- média, desvio padrão e correlação: lembro parcialmente
+- probabilidade condicional e Teorema de Bayes: não lembro
+- regressão linear: lembro bem
+- classificação supervisionada: não lembro
+- treino, teste e validação: lembro bem
+- normalização ou padronização de dados: lembro parcialmente
+- KNN: não lembro
+- árvore de decisão: não lembro
+- matriz de confusão: não lembro
+- acurácia, precisão, recall e F1-score: lembro parcialmente
+- overfitting e underfitting: não lembro
+- validação cruzada: não lembro
+- Random Forest: não lembro
+- XGBoost ou boosting: lembro parcialmente
+- `predict_proba()`: lembro parcialmente
+- SQL/ETL aplicado a dados: lembro parcialmente
+- simulação de Monte Carlo: lembro bem
 
 ## 2. O que foi trabalhado antes
 
