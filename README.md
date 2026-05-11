@@ -41,7 +41,7 @@ Explique, em 8 a 12 linhas:
 4. o que você só conseguiu fazer seguindo roteiro;
 5. qual assunto precisa ser retomado com mais urgência.
 
-Resposta: Lembro de ter trabalhado todos os tópicos, porém uns mais do que outros. KNN, teorema de Bayes, correlação, arvores de decisão, matriz de confusão e XGBoost trabalhamos pouco ou quase nada. Das atividades sobre esses tópicos, Lembro de uma sobre regressão linear que consistia em criar um modelo que prevê o preço do aluguel de um imóvel com base nas características do local, como por exemplo a distancia até o metrô, além de outra atividade que consistia em criar um modelo que previa os resultados de partidas de futebol com base em Random Forest ou XGBoost por meio de uma database SQLite, e utilizá-lo para prever o vencedor de um campeonato com base na simulação de Monte Carlo. De forma autonoma consegui fazer a classificação dos dados para treino e testes e também a normalização, as outras partes das implementações só consegui fazer com ajuda de exemplos que o professor passou e utilizando IA. De forma geral acho que deveriamos fazer uma revisão dos assuntos mais básicos, rever sobre indicadores e reforçar os assuntos de classificação, pois nos aprofundamos poucos neles.
+> Resposta: Lembro de ter trabalhado todos os tópicos, porém uns mais do que outros. KNN, teorema de Bayes, correlação, arvores de decisão, matriz de confusão e XGBoost trabalhamos pouco ou quase nada. Das atividades sobre esses tópicos, Lembro de uma sobre regressão linear que consistia em criar um modelo que prevê o preço do aluguel de um imóvel com base nas características do local, como por exemplo a distancia até o metrô, além de outra atividade que consistia em criar um modelo que previa os resultados de partidas de futebol com base em Random Forest ou XGBoost por meio de uma database SQLite, e utilizá-lo para prever o vencedor de um campeonato com base na simulação de Monte Carlo. De forma autonoma consegui fazer a classificação dos dados para treino e testes e também a normalização, as outras partes das implementações só consegui fazer com ajuda de exemplos que o professor passou e utilizando IA. De forma geral acho que deveriamos fazer uma revisão dos assuntos mais básicos, rever sobre indicadores e reforçar os assuntos de classificação, pois nos aprofundamos poucos neles.
 
 ## 3. Conceitos essenciais
 
@@ -117,7 +117,7 @@ Probabilidades das 5 primeiras amostras de teste:
 
 Qual modelo generalizou melhor? Explique usando as métricas e a comparação entre treino e teste.
 
-Resposta: segundo as métrica de acurácia, o modelo de Regressão logística obteve melhor resultado, pois os valores obtidos nos treinos e testes foram muito próximos(cerca de 95% de acurácia em ambos). isso significa que o desempenho se manteve praticamente igual em dados novos, mostrando que o modelo aprendeu os padrões reais do conjunto de dados sem “decorar” os exemplos de treino. Enquanto no modelo de Árvore de decisão houve um possível overfitting porque ele acertou perfeitamente os dados de treino, mas perdeu desempenho no teste. Além disso o F1-score da regressão logística(0.967 ou 96,7%) foi maior que o da Arvore de decisão(0.938 ou 93,8%), indicando maior equilíbrio entre encontrar os casos positivos e evitar erros nas previsões.
+> Resposta: segundo as métrica de acurácia, o modelo de Regressão logística obteve melhor resultado, pois os valores obtidos nos treinos e testes foram muito próximos(cerca de 95% de acurácia em ambos). isso significa que o desempenho se manteve praticamente igual em dados novos, mostrando que o modelo aprendeu os padrões reais do conjunto de dados sem “decorar” os exemplos de treino. Enquanto no modelo de Árvore de decisão houve um possível overfitting porque ele acertou perfeitamente os dados de treino, mas perdeu desempenho no teste. Além disso o F1-score da regressão logística(0.967 ou 96,7%) foi maior que o da Arvore de decisão(0.938 ou 93,8%), indicando maior equilíbrio entre encontrar os casos positivos e evitar erros nas previsões.
 
 ##
 
@@ -130,7 +130,7 @@ Escolha um dos modelos treinados e responda:
 3. Probabilidade alta garante que a previsão está correta? Explique.
 4. Em um problema real, qual seria o risco de confiar cegamente nessa previsão?
 
-Resposta:
+> Resposta: sim, tanto a regressão logística quanto a árvore de decisão produzem probabilidades com a função predict_proba(). Uma probabilidade alta para uma classe significa que o modelo tem alto grau de confiança que a amostra pertence a essa classe. Não necessariamente uma probabilidade alta garante que a previsão esteja correta, pois o modelo pode estar confiante, mas errado por várias razões, como dados de treinamento enviesados ou com ruidos, overfitting, etc. Em casos reais, confiar cegamente nessas previsões pode ocasionar sérios prejuízos, como por exemplo em uma aplicação que faz diagnóticos médicos, se um modelo prevê com 99% de certeza que um paciente não tem uma doença grave, mas a previsão está errada (um falso negativo), isso pode levar a um atraso no tratamento e consequências graves para a saúde do paciente.
 
 ## 6. Generalização
 
