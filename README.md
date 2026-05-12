@@ -141,7 +141,7 @@ Compare treino e teste:
 3. O que você tentaria mudar para melhorar o resultado?
 4. O que você precisaria estudar melhor para responder com mais segurança?
 
-Resposta:
+> Resposta: Sim, no modelo de árvore de decisão podemos ver que a acurácia de treino atingiu 100% e a de teste atingiu 92.3%, caracterizando um possível overfitting. Já na regressão Logística, não há sinal de overfitting, pois as acurácias de treino e teste são idênticas (cerca de 96% em ambas). Apesar disso, ambos os modelos obtiveram acurácias altas, acima dos 90%, descaracterizando um underfitting, mostrando que os modelos não são tão simples a ponto de não conseguirem capturar os padrões e perfomar de forma satisfatória no treino e testes. Uma possivel melhoria para o modelo de árvore de decisão seria "podar" a árvore, limitando a profundidade para evitar que ela crie ramos muito específicos(passando o parametro max_depth). já na regressão logística poderia ser aplicado um escalonamento dos dados utilizando a função StandartScaler() para que o cálculo dos coeficientes para as features estejam na mesma ordem de grandeza.
 
 ## 7. Ponto de dificuldade
 
